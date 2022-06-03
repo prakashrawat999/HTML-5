@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-5</title>
+</head>
+
+<body>
+
+    <svg width="200" height="200">
+        <circle cx="100" cy="100" r="70" stroke="green" stroke-width="2" fill="yellow"></circle>
+    </svg>
+    <canvas id="my" class="my" width="200" height="200">
+    </canvas>
+    <section style="color: rgba(14, 128, 235, 0.884); font-weight: 700; font-size: x-large;">
+        <form action="gollurwt143@gmail.com" method="get">
+            Color : <input type="color" name="color">
+            <br><br>
+            Date : <input type="date" name="date">
+            <br><br>
+            Time : <input type="time" name="time">
+            <br><br>
+            Date Time : <input type="datetime" name="datetime">
+            <br><br>
+            Date Time-local : <input type="datetime-local" name="date time-local">
+            <br><br>
+            Email : <input type="email" name="email">
+            <br><br>
+            Month : <input type="month" name="month">
+            <br><br>
+            Number : <input type="number" name="number">
+            <br><br>
+            Range : <input type="range" name="range">
+            <br><br>
+            Search : <input type="search" name="search">
+            <br><br>
+            Tel : <input type="tel" name="tel">
+            <br><br>
+            Time : <input type="time" name="time">
+            <br><br>
+            URL : <input type="url" name="url">
+            <br><br>
+            Week : <input type="week" name="week">
+            <br><br>
+            Submit : <input type="submit" name="submit">
+        </form>
+    </section>
+
+    <script>
+        const c = document.querySelector("#my");
+        const ctx = c.getContext("2d");
+        ctx.font = "30px Arial";
+        ctx.fillText("I am Rawat.!", 20, 50);
+        //ctx.font = "30px Arial";
+        //ctx.strokeText("Hello World", 25, 90);
+        //ctx.moveTo(0, 0);
+        //ctx.lineTo(200, 100);
+        //ctx.stroke();
+        //ctx.stroke - width();
+    </script>
+
+</body>
+
+</html>
