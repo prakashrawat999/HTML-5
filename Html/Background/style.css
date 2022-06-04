@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.scam{
+    width: 100%;
+    height: 100vh; 
+    /*background-color: antiquewhite;*/
+    background-image: url('download.jpg');
+    /* background-repeat: no-repeat; */ 
+    /* background-repeat: repeat-x; */
+    background-size: 100% 100%;
+    /* Css 3 background-size: 100% 100%; */
+    background-attachment: fixed;
+    /* background-repeat: repeat-y; */
+}
+.scam2{
+    width: 100%;
+    height: 100vh; 
+    /*background-color: antiquewhite;*/
+    background-image: url('solo.jpg');
+    /* background-repeat: no-repeat; */ 
+    /* background-repeat: repeat-x; */
+    background-size: 100% 100%;
+    /* Css 3 background-size: 100% 100%; */
+    background-attachment: fixed;
+    /* background-repeat: repeat-y; */
+}
+h1{
+    color: rgb(18, 18, 179);
+}
+/* ID access using (#)*/
+#work{
+    color: rgb(253, 19, 19);
+}
+/* Class access using (.)*/
+.home{
+    color: blueviolet;
+}
