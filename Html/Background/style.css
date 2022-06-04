@@ -26,14 +26,14 @@
     background-attachment: fixed;
     /* background-repeat: repeat-y; */
 }
+
 h1{
-    color: rgb(18, 18, 179);
+    color: rgb(2, 2, 116);
+    text-align: center;
 }
+
 /* ID access using (#)*/
 #work{
-    color: rgb(253, 19, 19);
-}
-/* Class access using (.)*/
-.home{
-    color: blueviolet;
+    color: rgb(184, 14, 90);
+    text-align: center;
 }
