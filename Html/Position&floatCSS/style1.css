@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.logo{
+    width: 20%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(228, 188, 135);
+    float: left;
+}
+.menu{
+    width: 80%;
+    line-height: 80px;
+    background-color: rgb(152, 222, 135);
+    float: right;
+}
+ul{
+    list-style: none;
+    direction: rtl;
+    /* text-align: right; */
+}
+li{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0 10px ;
+}
