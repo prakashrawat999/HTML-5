@@ -35,3 +35,20 @@
     /*capitalize uppercase lowercase*/
     /*Text-transform property is used to capitalize text or convert text to uppercase or lowercase letters.*/
 }
+
+a:link {
+    color: rgb(255, 5, 5);
+}
+/*Unvisited hyperlinks*/
+a:visited {
+    color: rgb(30, 0, 255);
+}
+/*Signifies visited hyperlinks*/
+a:hover {
+    color: rgb(29, 141, 5);
+}
+/*Signifies an element that currently has the user's mouse pointer hovering over it.*/
+a:active {
+    color: rgb(255, 0, 217);
+}
+/*Signifies an element on which the user is currently clicking.*/
