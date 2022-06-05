@@ -35,7 +35,6 @@
     /*capitalize uppercase lowercase*/
     /*Text-transform property is used to capitalize text or convert text to uppercase or lowercase letters.*/
 }
-
 a:link {
     color: rgb(255, 5, 5);
 }
@@ -52,3 +51,8 @@ a:active {
     color: rgb(255, 0, 217);
 }
 /*Signifies an element on which the user is currently clicking.*/
+
+.rwt, .pr{
+    text-align: center;
+    font-size: 1em;
+}

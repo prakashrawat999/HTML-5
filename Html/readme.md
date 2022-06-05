@@ -5,6 +5,10 @@
 
 # 👍 3 Ways :-
 * External
+```bash
+<link rel="stylesheet" type="text/css" href="demo.css">
+```
+📧 The REL attribute is used to define the relationship between the linked file and the HTML document
 * Internal
 * Inline
 
