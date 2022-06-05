@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+By default : static
+
+Absolute : 
+Realtive : 
+*/
+#father{
+    width: 600px;
+    height: 300px;
+    background-color: antiquewhite;
+}
+.child1{
+    width: 100px;
+    height: 60px;
+    background-color: cadetblue;
+}
+.child2{
+    width: 100px;
+    height: 60px;
+    background-color: rgb(100, 160, 95);
+}
+.child3{
+    width: 100px;
+    height: 60px;
+    background-color: rgb(138, 95, 160);
+}
+.child4{
+    width: 100px;
+    height: 60px;
+    background-color: rgb(143, 207, 48);
+}
