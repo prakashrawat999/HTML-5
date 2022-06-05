@@ -1,0 +1,56 @@
+#text {
+    text-shadow: 2px 2px 2px rgb(34, 179, 179);
+    /*left to right to pixel Horizontally, top to down shadow Vertically, blur, color*/
+    font-size: 4em;
+}
+
+#wrap {
+    word-wrap: break-word;
+    width: 150px;
+    border: 1px solid rgb(175, 28, 28);
+}
+
+#no_wrap {
+    width: 150px;
+    border: 1px solid rgb(175, 28, 28);
+}
+
+/*The @font-face rule you must first define a name for the font (e.g. myFont), and then point to the font file.*/
+@font-face {
+    font-family: kuchbhi;
+    /*name of font, you can create*/
+    src: url();
+    /* font file can found in ttf(True type font) format or otf(Open type font) format*/
+}
+
+/*Animation in CSS3*/
+
+
+.batman{
+    width: 100%;
+    height: 120px;
+    position: relative;
+}
+.batman img{
+    width: 140px;
+    height: 120px;
+    position: absolute;
+    left: 0;
+    animation-name: batmanjao;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes batmanjao{
+    from{left : 0}
+    to{left : 85%}
+}
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
