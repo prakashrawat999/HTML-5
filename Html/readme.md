@@ -3,6 +3,20 @@
 * It is used to control the style of a web document in a simple and easy way.
 * CSS is created and maintained throught a group of people with in the W3C called the CSS Working Group.
 
+## 1. Three ways of inserting a style sheet.
+## 2. CSS Id and Class
+## 3. CSS Background Property
+## 4. Fonts  CSS
+## 5. Text CSS
+## 6. Links CSS
+## 7. Box Model CSS
+## 8. Overflow CSS
+## 9. Positioning CSS
+## 10. Z-Index
+## 11. CSS Float
+## 12. CSS Display
+## 13. Cursors
+
 # 👍 3 Ways :-
 * External
 ```bash
