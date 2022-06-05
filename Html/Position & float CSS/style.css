@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+By default : static
+
+Absolute : element is positioned relative to the first parent element that has position other than static.
+Realtive : relative position element is positioned relative to its normal position.
+*/
+#father{
+    width: 600px;
+    height: 300px;
+    background-color: antiquewhite;
+    position: relative;
+}
+.child1{
+    width: 100px;
+    height: 60px;
+    background-color: cadetblue;
+    position: absolute;
+    left: 0;
+}
+/* all position absolute its mean overlap one after one*/
+.child2{
+    width: 100px;
+    height: 60px;
+    background-color: rgb(100, 160, 95);
+    position: absolute;
+    right: 0;
+}
+.child3{
+    width: 100px;
+    height: 60px;
+    background-color: rgb(138, 95, 160);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/*Top Child 4*/
+.child4{
+    width: 100px;
+    height: 60px;
+    background-color: rgb(143, 207, 48);
+    position: absolute;
+    bottom: 0;
+}
+
+/*
+The Z-index property specifies the stack order of an element.
+High z-index high priority.
+An element with greater stack order is always infront of an element with a lower stack order.
+Note :- Z-index only works on positioned elements (position : absolute, position : relative, position : fixed).
+
+z-index: 5;
+*/
+
+
+
+
+
+
+
