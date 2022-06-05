@@ -1,4 +1,38 @@
-*{
+* {
     margin: 0;
     padding: 0;
+}
+
+/*Border Properties allow you to specify how the border of the box representing an element should look.*/
+
+.borderCss {
+    width: 500px;
+    height: 300px;
+    background-color: red;
+
+    /*if you want add border than use these 3 property*/
+    border-width: 5px;
+    /*Specifies the width of a border*/
+    border-color: black;
+    /*Specifies the color of a border*/
+    border-style: dotted;
+    /*
+    border-style: dotted solid double dashed;
+    top border is dotted
+    right border is solid
+    bottom border is double
+    left border is dashed
+    */
+    /* border-style: dotted solid double; */
+    /*We can use multiple style :-
+      top border is dotted
+      right and left borders are solid
+      bottom border is double
+    */
+    /* In one line
+    border: 5px solid black; 
+    */
+    border-radius: 50px;
+    /*Border-radius is bonus : it comes CSS-3*/
+
 }

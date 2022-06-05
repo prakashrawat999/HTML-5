@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+Content : content of the box, where text and images appear.
+Padding : Clears an area around the content. The padding is transparent.
+Border : border that goes around the padding and content.
+Margin : Clears an area outside the border. The margin is transparent.
+*/
+
+.box{
+    width: 600px;
+    height: 200px;
+    background-color: rgb(9, 169, 140);
+}
+label{
+    margin-left: 20px;
+    font-size: 2rem;
+}
+/* we can't any selector for accessing bcoz it is element*/
+input{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px; 
+    padding-left: 20px;
+    /*Top Right Bottom Left (TRBL) */
+    padding: 30px 20px 30px 20px;
+
+    /*Margin: space between border and window*/
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+    /*Top Right Bottom Left (TRBL) */
+    margin: 30px 20px 30px 20px;
+}
