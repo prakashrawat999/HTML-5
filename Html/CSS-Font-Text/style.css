@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#fontCss{
+    font-family: 'Righteous', cursive;
+    font-variant: small-caps;
+    /* font-variant property is used to create a small-caps effect. */
+    font-size: 4em;
+   /* 1em = 16 pixel; */
+   font-style: italic;
+   /*is used to make a font italic or oblique*/
+   font-weight: bold;
+   /*font-weight: 100;*/
+   /*font-weight is used to inc. or dec. how bold or light a font appears. 100 to 900 and also use bold*/
+
+}
+.textCss{
+    font-family: 'Courgette', cursive;
+    color: darkgreen;
+    letter-spacing: 2px;
+    /*normal, 0px*/
+    /*Used to add or subtract space b/w the letters that make up a word*/
+    word-spacing: normal;
+    /* normal, 0px*/
+    direction: ltr;
+    /*it is used to set the text direction.*/
+    /*ltr : left to right rtl : right to left*/
+    text-indent: 50px;
+    /*it is ued to indent the text of a paragraph*/
+    text-align: center;
+    /*center left right end*/
+    text-transform: capitalize;
+    /*capitalize uppercase lowercase*/
+    /*Text-transform property is used to capitalize text or convert text to uppercase or lowercase letters.*/
+}
