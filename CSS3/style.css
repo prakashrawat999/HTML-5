@@ -2,6 +2,9 @@
     text-shadow: 2px 2px 2px rgb(34, 179, 179);
     /*left to right to pixel Horizontally, top to down shadow Vertically, blur, color*/
     font-size: 4em;
+    text-align: center;
+    background-color: rgb(233, 216, 216);
+    transition: transform 2s;
 }
 
 #wrap {
@@ -26,12 +29,13 @@
 /*Animation in CSS3*/
 
 
-.batman{
+.batman {
     width: 100%;
     height: 120px;
     position: relative;
 }
-.batman img{
+
+.batman img {
     width: 140px;
     height: 120px;
     position: absolute;
@@ -42,15 +46,160 @@
     animation-iteration-count: infinite;
 }
 
-@keyframes batmanjao{
-    from{left : 0}
-    to{left : 85%}
+@keyframes batmanjao {
+    from {
+        left: 0
+    }
+
+    to {
+        left: 85%
+    }
 }
 
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
+/*
+@keyframes batmanjao{
+    0%{left : 0}
+    100%{left : 85%}
+}
+*/
+
+
+/*Transition Effect in CSS3*/
+/*
+It is such an effect that lets an element gradually change from one style to another style when hover.
+There are mainly 4 properties of CSS3
+
+1. transition-property
+2. transition-duration
+3. transition-timing-function
+4. transition-delays
+*/
+.posi {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.love {
+    width: 50px;
+    height: 50px;
+    /*
+    transition-property: width, height;
+    using this whole div inc size but using tranform only image size inc.
+    */
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.love:hover {
+ /*
+    width: 100px;
+    height: 100px;
+    */
+    transform: scale(2, 2);
+}
+
+/*Multiple Columns in CSS3*/
+/*
+It is such an advace feature of CSS3 which is used for creating the newspaper layout. You can create your articles to Multiple Columns, even if it is one paragraph.
+3 properties 👎
+ * column-count
+ * column-rule
+ * column-gap
+*/
+.aboutpara{
+    column-count: 3;
+    column-gap: 50px;
+    text-align: justify;
+    column-rule: solid;
+    column-rule-color: green;
+    /*column-rule: dashed;
+    */
+    
+}
+
+/*Backgrounds in CSS3*/
+/*
+It is an affords, which is used to resizing of the background properties.
+Background-size is a such property which is used to fix the size of a background.
+Background-origin 
+Background-origin: border-box 
+Background-origin: content-box
+*/
+
+.myback{
+    width: 300px; height: 200px;
+    background-image: url('tech.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/*Borders in CSS3*/
+/*
+It is such an affords of style sheet which reduces the human efforts of Photoshop and other graphical applications.
+Border-radius : we can create the rounded corners.
+Box-shadow : we can create the shadow of the border.
+*/
+.img-fluid{
+    border-radius: 540px;
+    box-shadow: 4px 4px 5px grey;
+    /*horizontal spread, vertical spread, blur, color*/
+}
+
+/*User Interface*/
+/*
+ Mainly three types of user interface.
+ * resize
+     we have 3 property in rsize
+     resize : vertical;
+     resize : horizontal;
+     overflow : auto;
+ 
+ * box-sizing : 
+     The box-sizing property defines how the width and height of an element are calculated: should they include padding and borders, or not.
+     Allows us to include the padding and border in an element's total width and height.
+     by default the width and height of an element is calculated like this : 
+     * width + padding + border = actual width of an element.
+     * height + padding + border = actual height of an element.
+ 
+ * outline-offset
+*/
+
+/*2D Transform*/
+/*
+translate()
+rotate()
+scale() in heart section
+skew()
+matrix()
+*/
+#text:hover{
+    transform: rotate(360deg);
+    /*rotate*/
+}
+
+/*Linear Gradient */
+
+.join-gradient{
+    height: 200px;
+/*    background-image: linear-gradient(red, yellow); */
+    background-image: linear-gradient(to left, #F650FE, #607BF5);
+}
+
+/*Flex Box */
+/*
+One-Dimensional, can push content element to extreme alignment.
+*/
+.flexCss{
+    background: linear-gradient(to left, purple, green);
+    width: 100%; height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+/*
+Grid : Two Dimensional, can flex combination of items through space occupying features.
+*/
+
 /**/
