@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        section{
+            width: 100%; background: cyan;
+            /* media query using
+            display: flex;
+            justify-content: space-around;
+            */
+            /*justify-content: between;
+            justify-content: center; */
+            /*    flex-direction: row;
+            align-items: flex-start;
+            align-items: flex-end;
+            align-items: center;
+             */ 
+             /*
+             flex-warp: wrap; specifies that the flex items will wrap if necessary
+             */
+       }
+        section div{
+            /*width: 30%;*/
+            flex-basis: 30%;
+            padding: 20px;
+            border: 1px solid black;
+        }
+        .flex1{ /*flex: 1;*/ background: rgb(144, 27, 27);}
+        .flex2{ /*flex: 2;*/ background: rgb(45, 156, 45);} /*2 times more width grow and srink*/
+        .flex3{ /*flex: 2;*/ background: rgb(161, 161, 19);}
+
+        @media(min-width: 768px){
+            section{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+</style>
+</head>
+
+<body>
+    <section>
+        
+            <div class="flex1"> 👍Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit alias nisi nesciunt impedit fuga praesentium
+            nam voluptate soluta! Itaque culpa excepturi accusamus voluptatibus, in, sint ex quo sequi laudantium
+            nostrum eum impedit unde cupiditate, ut eaque! Sunt at eius quia. Lorem ipsum dolor sit amet consectetur
+            </div>
+        
+            <div class="flex2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit alias nisi nesciunt impedit fuga praesentium
+            perferendis nemo cum est officiis inventore earum impedit fugit numquam. Distinctio ipsam porro velit,
+            repudiandae aliquam amet voluptatum eum voluptate dolor.</div>
+        
+            <div class="flex3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit alias nisi nesciunt impedit fuga praesentium
+            mollitia magnam fugiat. Officia vel accusamus magni! Quisquam error natus adipisci impedit explicabo facere
+            numquam harum, architecto odit. Omnis, fugit placeat?</div>
+    </section>
+</body>
+
+</html>

@@ -80,3 +80,14 @@ Custom Font Download
 * 🥈 it is a layout module, makes it easier to design flexible responsive layout structure without using flaot or positioning.
  it has property like flex direction, flex basic, flex wrap etc.
 
+```bash
+👍 flex-direction
+💯display: flex;
+💯flex-direction: column;
+    column, row, row-reverse, column-reverse
+👍 flex-wrap
+👍 flex-flow
+👍 justify-content
+👍 align-items
+👍 align-content
+```
